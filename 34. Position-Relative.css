@@ -1,0 +1,15 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 5px solid black;
+    border-radius:20px ;
+    display:inline-block;
+
+}
+#two{
+ position: relative;
+ top: 150px;
+ left: 100px;
+}
+
