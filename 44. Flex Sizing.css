@@ -1,0 +1,44 @@
+#container{
+    height: 400px;
+    width: 800px;
+    background-color: rgb(219, 219, 238);
+    border: 5px solid black;
+    border-radius:20px ;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+  
+}
+#one{
+  height: 50px;
+  width: 400px;
+  background-color: brown;
+  border:5px solid black ;
+ flex-grow: 2;
+ /*
+ Flex Shorthand---
+ 1. Flex-grow | Flex-shrink | Flex-basis
+    flex:2 2 100px;
+ 2. Flex-grow | Flex-basis
+    flex:2 100px;
+ 3. Flex-grow(unitless)
+    flex:2;
+ 4. Flex-basis
+    flex:100px;
+ */
+ 
+
+}
+#two{
+  height: 100px;
+  width: 200px;
+  background-color: blueviolet;
+  border:5px solid black ;
+}
+#three{
+  height: 100px;
+  width: 300px;
+  background-color: yellow;
+  border:5px solid black ;
+}
+
