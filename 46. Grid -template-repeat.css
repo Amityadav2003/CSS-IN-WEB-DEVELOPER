@@ -1,0 +1,19 @@
+#container{
+    height: 400px;
+    width: 800px;
+    background-color: rgb(219, 219, 238);
+    border: 5px solid black;
+    border-radius:20px ;
+    display: grid;
+    grid-template-rows:repeat(2,1fr) ;
+ /* grid-template-rows
+    grid-template-columns*/
+ 
+}
+
+#type{
+   /*width: 200px;
+   height: 200px;*/
+   background-color: aqua;
+   border: 5px solid black;
+}
