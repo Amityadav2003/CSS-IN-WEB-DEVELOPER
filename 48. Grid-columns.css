@@ -1,0 +1,25 @@
+#container{
+    height: 400px;
+    width: 800px;
+    background-color: rgb(219, 219, 238);
+    border: 5px solid black;
+    border-radius:20px ;
+    display: grid;
+    grid-template-columns:150px 150px 150px;
+    grid-gap:10px 10px;
+  
+ 
+}
+
+.type{
+   /*width: 200px;
+   height: 200px;*/
+   background-color: aqua;
+   border: 5px solid black;
+}
+.one{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   /*grid-column:start-col/end-col (1/4)
+     grid-column:start-col/span number*/
+}
