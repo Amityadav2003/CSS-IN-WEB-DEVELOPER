@@ -1,0 +1,22 @@
+#container{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(219, 219, 238);
+    border: 5px solid black;
+    border-radius:20px ;
+    animation: Amit;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: normal; 
+ 
+}
+@keyframes Amit{
+   from{
+      background-color:rgb(250,0,0);
+   }
+   to{
+      background-color:rgb(0,250,0);
+   }
+}
