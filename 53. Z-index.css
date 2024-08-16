@@ -1,0 +1,21 @@
+div{
+   width: 150px;
+   height: 150px;
+    background-color: rgb(131, 11, 89);
+    border: 2px solid black;
+    border-radius:5px ;
+}
+#one{
+   background-color: aqua;
+   position: relative;
+   z-index: 2;
+}
+#two{
+   background-color: brown;
+   position: relative;
+   bottom: 50px;
+}
+#three{
+   background-color:red;
+
+}
