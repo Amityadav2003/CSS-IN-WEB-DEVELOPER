@@ -1,0 +1,15 @@
+ h1{
+    background-color: rgb(219, 219, 238);
+    border: 5px solid black;
+    border-radius:20px ;
+   }
+    
+@media(min-width:400px) and (max-width:800px){
+   h1{
+      background-color: blue;
+   }
+}
+/* only width
+   only min
+   only max
+   both are use min & max*/
