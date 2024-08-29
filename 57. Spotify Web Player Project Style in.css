@@ -218,7 +218,12 @@ a{
 
 .album{
     width: 25%;
+    display: flex;
 }
+.album-img{
+    height: 4rem;
+}
+
 
 .player{
     width: 50%;
@@ -273,3 +278,14 @@ a{
     border-radius: 50%;
     margin-top: -6px;
 }
+.volume-bar{
+    width: 20%;
+    cursor: pointer;
+
+}
+
+.controls{
+    margin-left: 15rem;
+}
+
+
